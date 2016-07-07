@@ -1,0 +1,71 @@
+body{
+	background-color: #FFC107;
+	font-family: 'VT323';
+	text-align: center;
+	font-size: 1.8rem;
+}
+
+.title{
+	animation-name: title;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	margin-left: 5%;
+}
+
+@keyframes title {
+    0%   {color: #F44336; left:0px; top:0px;}
+    20%  {color: #7E57C2; left:200px; top:0px;}
+    40%  {color: white; left:0px; top:0px;}
+    60%  {color: #2196F3; left:200px; top:200px;}
+    80%  {color: #66BB6A; left:0px; top:200px;}
+    100% {color: black; left:0px; top:0px;}
+}
+
+.table{
+margin-left: 45%;
+font-size: 1.75rem;
+}
+
+p{
+	margin-left: 3%;
+}
+
+a{
+	text-decoration: none;
+}
+a:visited{ 
+	text-decoration: none; color: black; 
+}
+
+.showName{
+	font-size: 2rem;
+}
+
+input{
+	font-family: 'VT323';
+}
+
+.des{
+	height: 60%;
+	width: 60%;
+	margin: auto;
+}
+
+.friend{
+	animation-name: title;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+.formDes{
+	margin-right: 7.5%;
+}
+.formImg{
+	margin-right: 1%;
+}
+
+
+
+
+
+
